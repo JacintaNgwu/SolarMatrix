@@ -1,6 +1,4 @@
-MIT License
-
-Copyright (c) 2026 Ebere Jacinta Ezinwa
+## Copyright (c) 2026 Ebere Jacinta Ezinwa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
