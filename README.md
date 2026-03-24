@@ -8,7 +8,7 @@ The goal of SolarMatrix is to bridge the gap between raw astronomical data and v
 
 # Link to online version:
 
-["click here"](https://jacintangwu.github.io/My-Portfolio/) 
+["click here"](https://ebere-jacinta-ezinwa-solarmatrix.netlify.app/) 
 
 # ✨ Key Features
 
@@ -72,7 +72,7 @@ You can run your test through the following process:
 
 3. Create a pull request.
 
-👤 **Jacinta Ngwu**
+👤 **Ebere Jacinta Ezinwa**
 
 - GitHub: [@JacintaNgwu](https://github.com/JacintaNgwu)
 - Twitter: [@jacinta_ngwu](https://twitter.com/jacinta_ngwu)
