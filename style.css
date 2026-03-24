@@ -1,0 +1,277 @@
+:root {
+  --orange: #d9b226;
+  --border-color: #000;
+  --light:  #f4e9c4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    padding: 20px 50px;
+    background: var(--orange);
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    border-radius: 50px;
+}
+
+
+.hero {
+    padding: 50px;
+    border: 2px solid var(--border-color);
+    margin: 0 auto;
+    border-left: 0;
+    border-right: 0;
+}
+
+.hero-text h2 {
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 121%;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 160%;
+}
+
+.hero-action {
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.action {
+    color: #000;
+    padding: 20px 20px;
+    text-decoration: underline;
+}
+
+.feature, .planets, .data, .form-section {
+    padding: 50px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.video-thumb {
+  position: relative;
+}
+
+.video-placeholder, .image-placeholder {
+    width: 90%;
+    height: 370px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.data-description {
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid var(--border-color);
+    padding: 15px 10px;
+    text-align: center;
+    vertical-align: middle;
+        
+}
+
+th {
+    font-weight: bold;
+    font-size: 18px;
+    background: var(--orange);
+}
+
+.category-cell {
+    font-size: 16px;
+    width: 15%;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background: var(--light);
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #999;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.char-count {
+    font-size: 12px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.options-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.option-item input {
+    margin-right: 8px;
+}
+
+.submit-btn {
+    background-color: #bcbcbc; /* Greyed out as per image */
+    color: white;
+    border: none;
+    padding: 12px 60px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: not-allowed;
+    margin-top: 10px;
+}
+
+footer {
+    background: var(--orange);
+    color: var(--border-color);
+    padding: 50px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0 0 40px 0;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #292828;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    /* Mobile Responsiveness */
+/* @media (max-width: 768px) {
+    .action {
+        padding: 5px;
+    }
+
+    table {
+        width: 20%;
+    }
+
+    th, td {
+        border: 2px solid #000;
+        padding: 10px 6px;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 13px; 
+    }
+
+    th {
+        background-color: #f8f8f8;
+    }
+
+    .category-cell {
+        font-size: 14px;
+        width: 30px;
+        background-color: #fff;
+    }
+
+    .side-label {
+        display: none; 
+    }
+
+    .video-placeholder, .image-placeholder {
+        height: 200px; 
+    }
+
+    .btn {
+        width: 100%; 
+    }
+} */
