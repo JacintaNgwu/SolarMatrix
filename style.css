@@ -21,11 +21,6 @@ body {
     background: var(--orange);
 }
 
-/* figure {
-    display: flex;
-    gap: 10px;
-} */
-
 .logo {
     border-radius: 50px;
 }
@@ -239,10 +234,6 @@ a {
 @media (max-width: 768px) {
     .action {
         padding: 5px;
-    }
-
-    table {
-        width: 20%;
     }
 
     th, td {
